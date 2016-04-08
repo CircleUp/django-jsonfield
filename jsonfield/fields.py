@@ -7,7 +7,7 @@ except ImportError:
     from django.utils import simplejson as json
 
 from django.forms.fields import Field
-from django.forms.util import ValidationError
+from django.forms.utils import ValidationError
 
 
 class JSONFormField(Field):
